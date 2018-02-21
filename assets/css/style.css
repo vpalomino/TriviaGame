@@ -1,0 +1,162 @@
+/* housekeeping */
+.align-center {
+	text-align: center;
+}
+
+.round-border {
+	border-radius: 50px;
+}
+
+.text-decor {
+	text-decoration: underline;
+	text-decoration-color: #ace600;
+	text-decoration-style: dotted;
+}
+
+/* background */
+body, html {
+	background-image: url("../images/solar.jpg");
+	height: 100%
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Kavivanar', cursive;
+}
+
+/* fonts */
+@font-face {
+	font-family: dtnoted;
+	src: url("<link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">");
+
+}
+
+@font-face {
+	font-family: 'Kavivanar', cursive;
+	src: url("fonts/writemeasong.ttf");
+}
+
+/* headings */
+.headings2 {
+	font-size: 2.0em;
+}
+
+/* header */
+.mainHeader {
+	font-family: 'Kavivanar', cursive;
+	font-size: 3.5em;
+}
+
+.header {
+	width: 75%;
+	margin: 20px auto;
+	background-color: #ffffff;
+	border: 3px solid #003366;
+	color: #003366;
+	padding: 10px;
+	line-height: 125%;
+	opacity: 0.90;
+}
+
+/* body */
+.body {
+	width: 75%;
+	margin: auto;
+	background-color: #ffffff;
+	border: 3px solid #003366;
+	color: #003366;
+	padding: 10px;
+	opacity: 0.90;
+}
+
+/* timer row */
+.timer {
+	width: 25%;
+	margin: 10px auto;
+	background-color: #ffffff;
+	border: 3px solid #003366;
+	color: #003366;
+	padding: 10px;
+}
+
+#timer {
+	color: #002db3;
+	font-weight: bold;
+	font-size: 2.15em;
+}
+
+/* instruction row */
+.howToPlay {
+	width: 50%;
+	margin: 10px auto;
+	background-color: #ffffff;
+	border: 3px solid #003366;
+	color: #003366;
+	padding: 10px;
+	font-size: 1.5em;
+}
+
+/* trivia row */
+.triviaRow {
+	width: 50%;
+	margin: 10px auto;
+	background-color: #ffffff;
+	border: 3px solid #003366;
+	color: #000000;
+	padding: 10px;
+}
+
+.answerChoices {
+	font-size: 1.95em;
+	margin: auto;
+}
+
+.choices {
+	padding: 5px;
+}
+
+.questionHeader {
+	font-family: 'Kavivanar', cursive;
+	font-size: 2.5em;
+}
+
+#question {
+	font-size: 2.0em;
+	margin: 10px auto;
+}
+
+
+/* result row */
+.resultRow {
+	width: 025%;
+	margin: 10px auto;
+	background-color: #ffffff;
+	border: 3px solid #003366;
+	color: #003366;
+	padding: 10px;
+}
+
+#score {
+	font-size: 3.0em;
+	color: #003366;
+	font-weight: bold;
+}
+
+/* button row */
+.buttonRow {
+	width: 40%;
+	margin: 10px auto;
+	background-color: #ffffff;
+	color: #000000;
+	padding: 10px;
+}
+
+button {
+	margin: 10px;
+	font-family: 'Kavivanar', cursive;
+	font-size: 1.75em;
+}
+
+button:active {
+	transform: translateY(2px);
+}

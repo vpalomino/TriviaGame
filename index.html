@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Do You Know Your Solar System?</title>
+
+	<!-- custom CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+	<!-- header -->
+	<div class="header mainHeader align-center round-border">Solar System Trivia</div>
+
+	<!-- body -->
+	<div class="body round-border">
+
+		<!-- timer row -->
+		<div class="timer align-center round-border">
+			
+			<div class="headings2 text-decor">Timer</div>
+			<div id="timer"></div>
+
+		</div> <!-- timer -->
+
+		<!-- instructions -->
+		<div class="howToPlay align-center round-border">
+
+			To answer, press "A", "B", or "C" on your keyboard.
+
+		</div> <!-- howToPlay -->
+
+		<!-- trivia row -->
+		<div class="triviaRow align-center round-border">
+			
+			<div class="questionHeader text-decor"></div>
+
+			<div id="question">Click START to begin!</div>
+			<div class="answerChoices">
+				
+				<div class="choices"><b>A.</b>&nbsp;&nbsp;<span id="a"></span></div>
+				<div class="choices"><b>B.</b>&nbsp;&nbsp;<span id="b"></span></div>
+				<div class="choices"><b>C.</b>&nbsp;&nbsp;<span id="c"></span></div>
+
+			</div> 
+		</div> 
+
+		<!-- result row -->
+		<div class="resultRow align-center round-border">
+
+			<div class="headings2 text-decor">Score</div>
+			<div id="score"></div>
+
+		</div> <!-- resultRow -->
+
+		<!-- button row -->
+		<div class="buttonRow align-center">
+			
+			<!-- start button -->
+			<button id="start">START</button>
+
+			<!-- quit button -->
+			<button id="quit">QUIT</button>
+
+		</div> <!-- buttonRow -->
+	</div> <!-- body -->
+
+
+	<!-- jQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- javascript -->
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+</html>
